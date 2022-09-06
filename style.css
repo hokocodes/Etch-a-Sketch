@@ -1,0 +1,17 @@
+.box:hover {
+    background-color: red;
+}
+
+.box {
+    width: 41px;
+    height: 41px;
+    background-color: purple;
+}
+
+#container {
+    background-color: blue;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px 41px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
